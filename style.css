@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* nav section style */
+.nav-container {
+    display: flex;
+    align-items: center;
+    max-width: 1444px;
+    margin: 0px auto;
+
+}
+
+.logo-container {
+    width: 50%;
+    display: flex;
+
+}
+
+.logo-container img {
+    width: 90px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.logo-container p {
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.logo-container span {
+    color: #FF42A5;
+}
+
+.nav-items {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* banner section style */
+.banner {
+    display: flex;
+
+}
+
+.banner-content {
+    width: 50%;
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    padding: 150px 0px 0px 240px;
+
+}
+
+.banner-content h3 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.banner-content h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.banner-content p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.btn-pink {
+    border: none;
+    background-color: #F948B2;
+    color: white;
+    padding: 21px 40px;
+    border-radius: 48px;
+}
+
+.btn-blue {
+    border: none;
+    background-color: rgba(78, 197, 247, 1);
+    color: white;
+    padding: 21px 40px;
+    border-radius: 48px;
+    margin-left: 24px;
+}
+
+/* know more section style */
+.know-more-container {
+    display: flex;
+    margin: 0px 240px;
+}
+
+.know-more-img {
+    margin-right: 52px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.know-more-content {
+    text-align: right;
+    margin: 95px 0px 95px 0px;
+}
+
+.know-more-content h3 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.know-more-content p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.know-more-content h5 {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+/* tablet style */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container {
+        max-width: 100%;
+        padding: 0px 50px;
+    
+    }
+    .banner-content {
+        padding: 200px 0px 0px 70px;
+    
+    }
+}
+/* mobile style */
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .logo-container {
+     justify-content: center;
+    
+    }
+    .logo-container img {
+        width: 40px;
+        object-fit: contain;
+        margin-right: 10px;
+    }
+    .logo-container p {
+        color: #0B0223;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    .nav-items{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+
+    }
+    .banner-img {
+        width: 100%;
+    }
+    .banner-img img{
+        width: 100%;
+        margin: 0px 20px;
+    }
+    .banner-content{
+        width: 100%;
+        background-image: url(images/Group\ 14.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 20px 0px 20px 90px;
+         
+    }
+    .know-more-container {
+        flex-direction: column;
+        margin: 0px;
+    }
+    /* .know-more-img{
+        margin: 0px;
+        width: 100%;
+    } */
+    .know-more-img img{
+        width: 100%;
+    }
+    .know-more-content {
+        text-align: right;
+        margin: 0px 0px 25px 0px;
+    }
+}
