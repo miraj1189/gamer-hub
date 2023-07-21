@@ -100,6 +100,7 @@
 
 .banner-img {
     width: 50%;
+    padding-right: 100px;
 }
 
 .btn-pink {
@@ -235,6 +236,7 @@
 .play-content {
     padding-top: 150px;
     width: 50%;
+    padding-right: 100px;
 }
 
 .play-content h3 {
@@ -276,11 +278,10 @@
 .btn-content {
     display: flex;
     align-items: center;
-    gap: 16px;
     padding: 10px;
     margin-left: 100px;
     border: none;
-    border-radius: 80px;
+    border-radius: 50px;
     background: #FFF;
 
 }
@@ -288,12 +289,14 @@
 .btn-content img {
     object-fit: contain;
     width: 60px;
+    margin-right: 16px;
 }
 
 .btn-content h5 {
     color: #0B0223;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
+    margin: 0px;
 }
 
 .btn-content:hover {
@@ -550,7 +553,6 @@
     .btn-content {
         display: flex;
         align-items: center;
-        gap: 6px;
         padding: 10px;
         margin-left: 10px;
         border: none;
@@ -562,6 +564,7 @@
     .btn-content img {
         object-fit: contain;
         width: 30px;
+        margin-right: 6px;
     }
 
     .btn-content h5 {
